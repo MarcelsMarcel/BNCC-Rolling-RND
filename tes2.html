@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JS</title>
+</head>
+<body>
+    <h1 class="judul">Hello World!</h1>
+    <p id="p1">Paragraph 1</p>
+    <p>Paragraph 2</p>
+
+    <script type="text/javascript">
+        //number, string, boolean, array
+    //   var x = 5;
+    //   console.log(x);
+    // var pengurus = ["Marcel", "Vinan"];
+    // console.log(pengurus[0]);
+    // console.log(x);
+
+
+    //if dan loop
+    // var x = 5;
+    // if (x < 0) {
+    //     console.log(x);
+    // } else if (x < 3){
+    //     console.log(x + " > 0");
+    // }
+    // else {
+    //     console.log("Angkamu Besar!");
+    // }
+
+        // var i = 1;
+        // while(i <= 10) {
+        //     console.log(i);
+        //     i++;
+        // }
+        // for(i = 1; i <= 10; i++){
+        //     console.log(i);
+        //     i++;
+        // }
+        // function f(x, y) {
+        //     var hasil = x + y;
+        //     // console.log(hasil);
+        //     return hasil;
+        // }
+        // f(2, 3);
+        // console.log(f(2, 3));
+
+        //dom : document object model
+        //dom selection
+        var judul = document.querySelector('h1.judul');
+        console.log(judul);
+        //dom manipulation
+        // judul.innerHTML = '<i>halo dunia</i>';
+        // judul.style.fontSize = '64px';
+        judul.classList.add('besar'); //bisa remove juga
+        //dom event
+    </script>
+</body>
+</html>
